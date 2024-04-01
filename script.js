@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Displaying Gradients
         
-        gradientDiv.style.background = "linear-gradient(" + w_rotation + "deg, #" + w_zmienna_1 + ", #" + w_zmienna_2 + ")";
-        gradientDisplay.textContent = "linear-gradient(" + w_rotation + "deg, #" + w_zmienna_1 + ", #" + w_zmienna_2 + ")";
+        gradientDiv.style.background = "linear-gradient(" + w_rotation + "deg, " + w_zmienna_1 + ", " + w_zmienna_2 + ")";
+        gradientDisplay.textContent = "linear-gradient(" + w_rotation + "deg, " + w_zmienna_1 + ", " + w_zmienna_2 + ")";
     });
 });
