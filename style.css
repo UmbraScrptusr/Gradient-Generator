@@ -9,6 +9,12 @@
     transition:350ms;
     border-radius:20px;
 }
+h1{
+    background: linear-gradient(to right, #DD00DD, #8AE1E6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+}
 body{
     align-items: center;
 }
