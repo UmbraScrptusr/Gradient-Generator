@@ -16,6 +16,15 @@ document.addEventListener("DOMContentLoaded", function() {
         var w_zmienna_2 = zmienna_2.value;
         var w_rotation = rotation.value;
 
+        if  (!w_rotation){
+            w_rotation = 0;
+        }
+        if (!w_zmienna_1 || !w_zmienna_2){
+            w_zmienna_1 = "#FFF";
+            w_zmienna_2 = "#FFF";
+            gradientDisplay.textContent = "error accured while getting gradient pallete.";
+        }
+
         //for dev, checking, if website get values of zmienna_1, zmienna_2, and rotation
 
         console.log(w_zmienna_1, w_zmienna_2, w_rotation);
